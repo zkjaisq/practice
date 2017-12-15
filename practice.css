@@ -246,3 +246,54 @@ width: 1200px;
     margin: 20px 15px;
     fill: black;
 }
+#section5{
+    margin-top: 30px;
+    position: relative;
+    background: url(https://chenleoxx.github.io/demos/companypage/images/%E5%BA%95%E9%83%A8.jpg);
+    background-size:cover;
+}
+#section5 h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  padding-top: 130px;
+}
+#section5 p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+#section5> textarea{
+    position: absolute;
+    top: 250px;
+   left: 50%;
+   width: calc(50% - 200px);
+}
+#section5 ul{
+
+    margin-right: calc(50% + 50px);
+    margin-left: 150px;
+}
+#section5 li >input{
+    width: 100%;
+
+padding:20px 20px;
+margin-top: 40px;
+border-radius: 8px;
+}
+#section5 bottom{
+    display: inline-flex;
+
+    font-size: 30px;
+    color:white;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: calc(50% - 117px);
+  
+    background-color: #f6c646;
+    border-radius: 4px;
+    padding:10px 5px;
+}
+#section5 bottom:hover{
+    background-color: #f7d158;
+}
